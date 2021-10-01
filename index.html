@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Test task</title>
+</head>
+<body>
+    <div class="container">
+    <div class="wrapper">
+    <form name="form-table-1">
+        <div class="form-outer">
+        <div class="form-row">
+        <span class="header-letter">X</span>
+        <span class="header-letter">Y</span>
+    </div>
+    <div class="form-1-data">
+    <div class="form-row table-1" data-id="1">
+          <input type="number" class="form-input form__X">
+          <input type="number" class="form-input form__Y">
+          <button class="form-1__delete" data-id="1">Delete</button>
+    </div>
+</div>
+    <div class="form-row">
+    <button class="form-btn form-1__add">Add</button>
+</div>
+</div>
+
+    </form>
+    <form name="form-table-2">
+        <div class="form-outer">
+        <div class="form-row">
+        <span class="header-letter">X</span>
+        <span class="header-letter">Y</span>
+    </div>
+    <div class="form-2-data">
+    <div class="form-row table-2" data-id="1">
+        <input type="number" class="form-input form__X">
+          <input type="number" class="form-input form__Y">
+          <button class="form-2__delete" data-id="1">Delete</button>
+    </div>
+</div>
+    <div class="form-row">
+    <button class="form-btn form-2__add">Add</button>
+</div>
+</div>
+    </form>
+    <form name="form-table-3">
+        <div class="form-outer">
+        <div class="form-row">
+        <span class="header-letter result">X</span>
+        <span class="header-letter result">Y</span>
+    </div>
+    <div class="form-3-data"></div>
+    <div class="form-row">
+    <button class="form-btn form-btn-calculate">Calculate</button>
+</div>
+</div>
+    </form>
+</div>
+</div>
+<div class="container ">
+    
+    <div class="table-block-outer">
+    <div class="table-block hidden">
+    <h2>Table 1</h2>
+    <canvas class="canvas-plot-1" width="1200" height="700"></canvas>
+</div>
+    <div class="table-block hidden">
+    <h2>Table 2</h2>
+    <canvas class="canvas-plot-2" width="1200" height="700"></canvas>
+</div>
+    <div class="table-block hidden">
+    <h2>Table 3</h2>
+    <canvas class="canvas-plot-3" width="1200" height="700"></canvas>
+</div>
+</div>
+</div>
+    <script src="./main.js"></script>
+</body>
+</html>
