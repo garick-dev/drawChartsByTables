@@ -106,19 +106,6 @@ const getValueTable2 = (counter) => {
     return { arrXtable2, arrYtable2 };
   
 }
-const getValueTable3 = (arrXtable1, arrXtable2, arrYtable1, arrYtable2, counter) => {
-    let arrXtable3 = [];
-    let arrYtable3 = [];
-    
-    for (let i = 0; i < counter; i++) {
-
-        let resX = (Number(arrXtable1[i]) + Number(arrXtable2[i])) / 2;
-        let resY = (Number(arrYtable1[i]) + Number(arrYtable2[i])) / 2;
-        arrXtable3.push(resX);
-        arrYtable3.push(resY);
-    }
-    return { arrXtable3, arrYtable3};
-}
 ////////////////GET VALUE TABLE////////////////
 
 
